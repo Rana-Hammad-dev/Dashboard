@@ -1,0 +1,24 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.table h3 {
+    color: #555;
+}
+
+.status {
+    padding: .4em 1em;
+    border-radius: 7px;
+}
+
+.status:hover {
+    cursor: pointer;
+}
+
+@media (max-width:950px) {
+    .table {
+        width: 100%;
+    }
+}
